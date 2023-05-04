@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979;2008&family=Tilt+Prism&display=swap');
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f797e7;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Tilt Prism', cursive;
+}
+section.chat_section{
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 10px 15px -3px rgba(173, 11, 152, 0.712), 0 4px 6px -2px rgba(250, 68, 226, 0.712);
+}
+.brand{
+    padding: 20px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+.brand h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+.message_area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+.message{
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.message h4{
+    color: rgb(53, 14, 194);
+    position: relative;
+    top: -20px;
+    left: 0;
+    font-size: 16px;
+}
+.incoming{
+    background-color: #db15ba;
+    color: #fff;
+}
+.outgoing{
+    background:rgba(250, 99, 230, 0.712);
+    color: #fff;
+    margin-left: auto;
+}
+textarea{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+}
